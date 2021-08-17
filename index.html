@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background: whitesmoke2 ;
+            }
+        .common{
+            width: 150px;
+            height: 150px;
+            border-radius: 150px;
+            display:  inline-block;
+            animation-name:xyz;
+                animation-duration: 0.6s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in;
+                animation-direction: alternate;    
+        }
+        .p1{
+            background: blue;
+            animation-delay: 0s;
+        }
+        .p2{
+            background: cadetblue;
+            animation-delay: 0.1s;
+        }
+        .p3{
+           background: rgb(209, 109, 16);
+           animation-delay: 0.3s;
+        }
+        .p4{
+           background: rgb(147, 35, 221);
+           animation-delay: 0s;
+        }
+        .p4{
+           background: rgb(187, 199, 199);
+           animation-delay: 0.1s;
+        }
+        .p5{
+           background: rgb(236, 79, 5);
+           animation-delay: 0.3s;
+        }
+        .p6{
+           background: rgb(207, 221, 13);
+           animation-delay: 0.9s;
+        }
+        .p7{
+           background: rgb(193, 38, 224);
+           animation-delay: 1s;
+        }
+        .p8{
+           background: rgb(20, 231, 55);
+           animation-delay: 0.5s;
+        }
+        .p9{
+           background: rgb(212, 8, 185);
+           animation-delay: 0.7s;
+        }
+        @keyframes xyz{
+                0%{
+                    transform: translateY(0px);
+                }
+                100%{
+                    transform: translateY(500px);
+                }
+            }  
+        </style>
+    </head>
+    <body>
+        <div class="common p1"></div>
+        <div class="common p2"></div>
+        <div class="common p3"></div>
+        <div class="common p4"></div>
+        <div class="common p5"></div>
+        <div class="common p6"></div>
+        <div class="common p7"></div>
+        <div class="common p8"></div>
+        <div class="common p9"></div>
+       
+        
+    </body>
+</html>
